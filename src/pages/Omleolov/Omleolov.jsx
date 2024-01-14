@@ -22,13 +22,28 @@ function Omleolov () {
                                 <h2 className="my-6 text-2xl tracking-tight font-extrabold text-primary sm:text-3xl md:text-4xl">
                                     Om Leo-Lov
                                 </h2>
-                                <p>
-                                    Donec porttitor, enim ut dapibus lobortis, lectus sem tincidunt dui, eget ornare lectus ex non
-                                    libero. Nam rhoncus diam ultrices porttitor laoreet. Ut mollis fermentum ex, vel viverra lorem
-                                    volutpat sodales. In ornare porttitor odio sit amet laoreet. Sed laoreet, nulla a posuere
-                                    ultrices, purus nulla tristique turpis, hendrerit rutrum augue quam ut est. Fusce malesuada
-                                    posuere libero, vitae dapibus eros facilisis euismod. Sed sed lobortis justo, ut tincidunt
-                                    velit. Mauris in maximus eros.
+                                <p className="mb-4 ">
+                                    Familieret er en ret alle har. Har du en familie har du sikkert ret til familieret. Medmindre du altid er den der tror du har ret. Vi desværre ikke hjælpe dig.
+                                </p>
+
+                                <p className="mb-4 ">
+                                    Ejendomsret Har du købt et hus og fortrudt eller er du blevet svindlet? Fortvivl ej. Vi kan hjælpe dig med at komme af med huset, eller eventuelt sagsøge vedkommende der solgte dig det.
+                                </p>
+
+                                <p className="mb-4">
+                                    Konkurs Er du gået konkurs ville vi rigtig gerne hjælpe, men det kan vi desværre ikke. Vi er alle advokater med fede biler her, så har du ingen penge får du ingen hjælp.
+                                </p>
+
+                                <p className="mb-4 mr-6">
+                                    Selskabsret. Ved du heller aldrig hvilken ret du skal servere til et stort selskab? Heller ikke os. Heldigvis har vi en mand i udlandet der ved en masse om dette, så henvend dig i dag.
+                                </p>
+
+                                <p className="mb-8 mr-8">
+                                    Leo-lov har altid været det bedste advokatfirma i verden. Der er simpelthen ingen der kan måle sig med os. Vi kan løse alle problemer så længe du har penge. Hvis du mod altid forventning skulle opleve at støde på et retsligt problem som Leo-lov ikke kan løse, får du halvdelen af beløbet igen.
+                                </p>
+
+                                <p className="mb-8">
+                                    Det er sådan vi har skabt en forretning der ikke kan andet end at vokse!
                                 </p>
                             </div>
                         </main>

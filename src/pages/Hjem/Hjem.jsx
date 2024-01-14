@@ -16,7 +16,7 @@ function Hjem() {
         </section>
 
         <section className="container mx-auto px-8 py-8 lg:py-40 relative z-10 flex flex-col items-end  lg:top-[60px] w-full">
-          <div className="text-container mb-[120px]">
+          <div className="text-container mb-[280px]">
             <h2 className="block antialiased tracking-normal !leading-3 xs:!text-[60px] sm:!text-[100px] md:!text-[120px] mt-20 lg:!text-[140px] text-white">
               <span className="text-primary sm:!text-[100px] md:!text-[120px] lg:!text-[140px]">Leo</span>-love
             </h2>
@@ -25,7 +25,7 @@ function Hjem() {
             </p>
           </div>
           <div className="mt-[260px] grid grid-cols-1 gap-8 lg:grid-cols-4">
-            <div className="relative flex flex-col bg-white text-gray-700 shadow-md  lg:min-h-[20rem] items-end overflow-hidden rounded-xl">
+            <div className="relative flex flex-col bg-white text-gray-700 shadow-md  lg:relative grid lg:min-h-[20rem] items-end overflow-hidden rounded-xl">
               <div className="h-80 w-full bg-white rounded-xl shadow-xl p-6 relative flex flex-col items-center justify-center">
                 <h4 className="block antialiased tracking-normal text-2xl font-semibold leading-snug text-primary mb-4">
                   Familieret
@@ -42,7 +42,7 @@ function Hjem() {
                 <h4 className="block antialiased tracking-normal font-inter text-2xl font-semibold leading-snug text-primary text-center mb-4">
                   Ejendomsret
                 </h4>
-                <p className="block antialiased font-sans text-base font-light leading-relaxed text-gray-500 text-center">
+                <p className="block antialiased font-inter text-base font-light leading-relaxed text-gray-500 text-center">
                   Har du købt et hus og fortrudt eller er du blevet svindlet?
                   Fortvivl ej. Vi kan hjælpe dig med at komme af med huset,
                   eller eventuelt sagøge vedkommende der solgte dig det.
@@ -55,9 +55,12 @@ function Hjem() {
                   Konkurs
                 </h4>
                 <p className="block antialiased font-sans text-base font-light leading-relaxed text-gray-500 text-center">
-                  Er du gået konkurs ville vi rigtig gerne hjælpe, but we
-                  cannot. We are all lawyers here with fancy cars, so if you
-                  have no money, you get no help.
+                  Er du gået konkurs ville vi
+                  rigtig gerne hjælpe, men
+                  det kan vi desværre ikke. Vi
+                  er alle advokater med fede
+                  biler her så har du ingen
+                  penge får du ingen hjælp
                 </p>
               </div>
             </div>
@@ -67,9 +70,13 @@ function Hjem() {
                   Selskabsret
                 </h4>
                 <p className="block antialiased font-sans text-base font-light leading-relaxed text-gray-500 text-center">
-                  Company law. Do you never know which law to serve at a big
-                  party? Neither do we. Fortunately, we have a man abroad who
-                  knows a lot about this, so contact us today.
+                  Selskabsret. Ved du heller
+                  aldrig hvilken ret du skal
+                  servere til et stort selskab?
+                  Heller ikke os. Heldigvis har
+                  vi en mand i udlandet der
+                  ved en masse om dette så
+                  henvend dig i dag.
                 </p>
               </div>
             </div>
