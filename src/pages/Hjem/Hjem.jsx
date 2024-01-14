@@ -14,7 +14,7 @@ function Hjem() {
           />
         </section>
 
-        <section className="container mx-auto px-8 py-8 lg:py-40 relative z-10 flex flex-col items-end  lg:top-[10px] w-full">
+        <section className="container mx-auto px-8 py-8 lg:py-40 relative z-10 flex flex-col items-end  lg:top-[60px] w-full">
           <div className="text-container mb-[120px]">
             <h2 className="block antialiased tracking-normal !leading-3 xs:!text-[60px] sm:!text-[100px] md:!text-[120px] mt-20 lg:!text-[140px] text-white">
               <span className="text-primary sm:!text-[100px] md:!text-[120px] lg:!text-[140px]">Leo</span>-love
@@ -38,7 +38,7 @@ function Hjem() {
             </div>
             <div className="relative flex flex-col bg-white  text-gray-700 shadow-md lg:relative grid lg:min-h-[20rem] items-end overflow-hidden rounded-xl">
               <div className="h-80 w-full bg-white rounded-xl shadow-xl p-6 relative flex flex-col items-center justify-center">
-                <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-primary text-center mb-4">
+                <h4 className="block antialiased tracking-normal font-inter text-2xl font-semibold leading-snug text-primary text-center mb-4">
                   Ejendomsret
                 </h4>
                 <p className="block antialiased font-sans text-base font-light leading-relaxed text-gray-500 text-center">
@@ -75,10 +75,56 @@ function Hjem() {
           </div>
         </section>
 
-        <section>
-        <div className="grid grid-cols-2 grid-rows-5">
-            <div className="row-span-5 border-8 border-secondary"><img src="" alt="" /></div>
-            <div className="row-span-5 border-8 border-secondary">2</div>
+        <section className='mb-[200px] px-12'>
+          <div className="grid grid-cols-2 grid-rows-1  md:grid-cols-1 md:grid-rows-1 sm:grid-cols-1 sm:grid-rows-1 xs:grid-cols-1 xs:grid-rows-1 gap-0">
+          <div className="border-8 border-secondary">
+              <img
+                className='lg:w-full lg:h-full w-full h-auto object-fill'
+                src="src/Images/LeoLovOnePage/Money.jpg"
+                alt="Money"
+              />
+            </div>
+              <div className="border-8 border-secondary xs:pb-12 md:pb-12 sm:pb-12 md:pb-12">
+                <h3 className='block antialiased py-12 tracking-normal font-inter text-2xl font-semibold leading-snug text-primary text-center my-12'>INTET PROBLEM</h3>
+                <p className='block antialiased px-16 leading-snu text-inherit w-full font-normal xs:!text-sm sm:!text-sm md:!text-base  lg:!text-xl'>
+                  Leo-lov har altid været det bedste advokatfirma i verden.
+                  Der er simpelthen ingen der kan måle sig med os. Vi kan løse
+                  alle problemer så længe du har penge. Hvis du mod altid
+                  forventning skulle oplevel at støde på et retsligt problem
+                  som leo-lov ikke kan løse får du halvdelen af beløbet igen.
+                  <br />
+                  <br />
+                  Det er såden vi har skabt en forretning der ikke kan andet
+                  end at vokse!
+                </p>
+                </div>
+          </div>
+        </section>
+
+        <section className='mb-12 px-12'>
+        <div className="grid grid-cols-2 grid-rows-1  md:grid-cols-1 md:grid-rows-1 sm:grid-cols-1 sm:grid-rows-1 xs:grid-cols-1 xs:grid-rows-1 gap-0">
+        <div className="border-8 border-secondary xs:pb-12 md:pb-12 sm:pb-12 lg:pb-12">
+              <h3 className='block antialiased py-12 tracking-normal font-inter text-2xl font-semibold leading-snug text-primary text-center my-10'>HER BOR VI</h3>
+              <p className='block antialiased px-16 leading-snu text-inherit w-full font-normal xs:!text-sm sm:!text-sm md:!text-base  lg:!text-xl'>
+                Leo-lov har altid været det bedste advokatfirma i verden.
+                Der er simpelthen ingen der kan måle sig med os. Vi kan løse
+                alle problemer så længe du har penge. Hvis du mod altid
+                forventning skulle oplevel at støde på et retsligt problem
+                som leo-lov ikke kan løse får du halvdelen af beløbet igen.
+                <br />
+                <br />
+                Det er såden vi har skabt en forretning der ikke kan andet
+                end at vokse!
+              </p>
+              </div>
+        <div className="border-8 border-secondary">
+              <img
+                className='lg:w-full lg:h-full w-full h-auto object-fill'
+                src="src/Images/LeoLovOnePage/Building.jpg"
+                alt="Building"
+              />
+            </div>
+           
         </div>
         </section>
       </main>

@@ -9,8 +9,8 @@ module.exports = {
     screens: {
       'xs': {'min': '300px', 'max': '476px'},
       'sm': {'min': '477px', 'max': '767px'},
-      'md': {'min': '768px', 'max': '1022px'},
-      'lg': {'min': '1023px'},
+      'md': {'min': '768px', 'max': '1122px'},
+      'lg': {'min': '1123px'},
     },
     extend: {
       colors: {
