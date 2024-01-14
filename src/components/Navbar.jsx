@@ -54,7 +54,7 @@ const Navbar = () => {
                     </button>
                 </div>
                 <div className="flex items-center justify-end flex-1 lg:ml-4 md:ml-2">
-                    <span className="text-3xl font-light text-primary whitespace-pre">Leo</span><p className= "whitespace-pre mr-8 text-3xl font-light">-love</p>
+                    <span className="text-3xl font-light text-primary whitespace-pre">Leo</span><p className= "whitespace-pre mr-8 text-3xl font-light">-lov</p>
                 </div>
             </div>
         </nav>
