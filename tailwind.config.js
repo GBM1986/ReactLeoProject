@@ -6,6 +6,12 @@ module.exports = {
     './public/index.html',
   ],
   theme: {
+    screens: {
+      'xs': {'min': '300px', 'max': '476px'},
+      'sm': {'min': '477px', 'max': '767px'},
+      'md': {'min': '768px', 'max': '1022px'},
+      'lg': {'min': '1023px'},
+    },
     extend: {
       colors: {
         primary: '#002BC2',
@@ -13,25 +19,23 @@ module.exports = {
         // Add more custom colors as needed
       },
       fontFamily: {
-        'Inter': ['Inter','Jura']
+        'Inter': ['Inter', 'Jura'],
         // Add more custom font families
+      },
+      skew: {
+        '360': '360deg',
+      },
+      spacing: {
+        '72': '18rem',
+        '84': '21rem',
+        // Add more custom spacing utilities
+      },
+      fontSize: {
+        '2xl': '1.5rem',
+        '4xl': '2.25rem',
+        // Add more custom font sizes
       },
     },
   },
-  extend: {
-    skew: {
-      '360': '360deg',
-    },
-    spacing: {
-      '72': '18rem',
-      '84': '21rem',
-      // Add more custom spacing utilities
-    },
-    fontSize: {
-      '2xl': '1.5rem',
-      '4xl': '2.25rem',
-      // Add more custom font sizes
-    },
-  },
   plugins: [],
-}
+};
