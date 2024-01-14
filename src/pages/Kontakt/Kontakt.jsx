@@ -111,8 +111,6 @@ function Kontakt() {
                     email@mail.dk
                   </div>
                 </div>
-
-                {/* ... (rest of your contact information) */}
               </div>
 
               <form className="p-6 flex flex-col justify-center" onSubmit={handleSubmit}>
