@@ -5,6 +5,7 @@ import Advokatrerne from './pages/Advokaterne/Advokaterne.jsx'
 import Omleolov from './pages/Omleolov/Omleolov.jsx';
 import Kontakt from './pages/Kontakt/Kontakt.jsx'; 
 import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
 import Fallback from './pages/Fallback/Fallback.jsx';
 
 import './App.css';
@@ -19,6 +20,7 @@ function App() {
         <Route path="kontakt" element={<Kontakt />} />
         <Route path="*" element={<Fallback />} />
         <Route path="navbar" element={<Navbar/>} />
+        <Route path="footer" element={<Footer/>} />
       </Routes>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar.jsx';
+import Footer from '../../components/Footer.jsx';
 
 function Hjem() {
   return (
@@ -124,9 +125,10 @@ function Hjem() {
                 alt="Building"
               />
             </div>
-           
         </div>
         </section>
+
+        <Footer />
       </main>
     </div>
   );

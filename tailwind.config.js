@@ -19,7 +19,8 @@ module.exports = {
         // Add more custom colors as needed
       },
       fontFamily: {
-        'Inter': ['Inter', 'Jura'],
+        'body': [
+          'Inter', 'Jura'],
         // Add more custom font families
       },
       skew: {
