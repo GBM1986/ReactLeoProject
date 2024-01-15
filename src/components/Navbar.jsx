@@ -49,7 +49,7 @@ const Navbar = () => {
                         {click && content}
                     </div>
 
-                    <button className="block transition z-50 lg:hidden md:hidden" onClick={() => setClick(!click)} style={{ zIndex: 100 }}>
+                    <button className="block transition text-primary z-50 lg:hidden md:hidden" onClick={() => setClick(!click)} style={{ zIndex: 100 }}>
                         {click ? <FaTimes /> : <CiMenuBurger />}
                     </button>
                 </div>

@@ -20,8 +20,8 @@ module.exports = {
       },
       fontFamily: {
         'body': [
-          'Inter', 'Jura'],
-        // Add more custom font families
+            'Inter', 'Jura', 'sans-serif'
+        ],
       },
       skew: {
         '360': '360deg',
